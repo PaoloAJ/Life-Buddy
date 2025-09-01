@@ -98,12 +98,6 @@ export default function MotivationPage() {
             >
               🏠 Go Home
             </Link>
-            <button
-              onClick={() => window.history.back()}
-              className="border border-white text-white px-8 py-3 rounded-lg hover:bg-white hover:text-blue-600 transition duration-300 transform hover:scale-105"
-            >
-              ← Go Back
-            </button>
           </div>
         </div>
 

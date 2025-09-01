@@ -12,7 +12,7 @@ function Home() {
       <div className="max-w-4xl mx-auto mb-12">
         <div className="bg-gradient-to-r from-blue-500/20 to-purple-500/20 border border-blue-400/30 rounded-xl p-8 text-center">
           <h2 className="text-2xl font-semibold mb-4 text-blue-200">
-            🚀 Website Coming Soon!
+            Website Coming Soon!
           </h2>
           <p className="text-lg text-gray-200 mb-6 leading-relaxed">
             We&apos;re working hard to bring you an enhanced Life Buddy
