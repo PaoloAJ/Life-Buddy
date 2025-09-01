@@ -26,14 +26,6 @@ function Home() {
             >
               View Privacy Policy
             </a>
-            <a
-              href="https://chrome.google.com/webstore/detail/your-extension-id"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
-            >
-              Get Chrome Extension
-            </a>
           </div>
         </div>
       </div>
