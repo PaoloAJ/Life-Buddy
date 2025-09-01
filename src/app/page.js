@@ -15,9 +15,9 @@ function Home() {
             🚀 Website Coming Soon!
           </h2>
           <p className="text-lg text-gray-200 mb-6 leading-relaxed">
-            We're working hard to bring you an enhanced Life Buddy experience
-            with more features, better analytics, and a comprehensive dashboard.
-            Stay tuned for updates!
+            We&apos;re working hard to bring you an enhanced Life Buddy
+            experience with more features, better analytics, and a comprehensive
+            dashboard. Stay tuned for updates!
           </p>
           <div className="flex justify-center space-x-4">
             <a

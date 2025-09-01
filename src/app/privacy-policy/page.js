@@ -85,15 +85,15 @@ function PrivacyPolicy() {
               <p className="mb-3">All data collected by Life Buddy is:</p>
               <ul className="list-disc list-inside space-y-2 ml-4">
                 <li>
-                  <strong>Stored locally</strong> on your device using Chrome's
-                  local storage
+                  <strong>Stored locally</strong> on your device using
+                  Chrome&apos;s local storage
                 </li>
                 <li>
                   <strong>Never transmitted</strong> to external servers or
                   third parties
                 </li>
                 <li>
-                  <strong>Used solely</strong> to provide the extension's
+                  <strong>Used solely</strong> to provide the extension&apos;s
                   functionality
                 </li>
                 <li>
@@ -117,7 +117,7 @@ function PrivacyPolicy() {
                 </li>
                 <li>
                   <strong>Browser Security:</strong> Data is protected by
-                  Chrome's built-in security measures
+                  Chrome&apos;s built-in security measures
                 </li>
                 <li>
                   <strong>No External Access:</strong> Our extension cannot
@@ -147,7 +147,7 @@ function PrivacyPolicy() {
               <ul className="list-disc list-inside space-y-2 ml-4">
                 <li>
                   <strong>View Data:</strong> Access all stored data through
-                  Chrome's developer tools
+                  Chrome&apos;s developer tools
                 </li>
                 <li>
                   <strong>Delete Data:</strong> Remove the extension to delete

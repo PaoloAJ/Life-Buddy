@@ -34,8 +34,8 @@ export default function MotivationPage() {
     "Stay hydrated and take care of yourself",
     "Find your optimal study time and stick to it",
     "Break down complex topics into smaller chunks",
-    "Teach others what you've learned",
-    "Get enough sleep - it's crucial for memory consolidation",
+    "Teach others what you&apos;ve learned",
+    "Get enough sleep - it&apos;s crucial for memory consolidation",
   ];
 
   useEffect(() => {
@@ -44,7 +44,7 @@ export default function MotivationPage() {
     const randomTip = studyTips[Math.floor(Math.random() * studyTips.length)];
     setCurrentQuote(randomQuote);
     setCurrentTip(randomTip);
-  }, []);
+  }, [quotes, studyTips]);
 
   return (
     <div className="min-h-screen flex items-center justify-center px-4">
@@ -67,7 +67,7 @@ export default function MotivationPage() {
                 💭 Today's Motivation
               </h2>
               <blockquote className="text-2xl md:text-3xl text-white/90 italic leading-relaxed">
-                "{currentQuote}"
+                &ldquo;{currentQuote}&rdquo;
               </blockquote>
             </div>
           </div>
