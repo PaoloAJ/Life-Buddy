@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Image from "next/image";
 
 function SignIn() {
   return (
@@ -47,9 +48,11 @@ function SignIn() {
           }}
           className="w-full flex items-center justify-center gap-2 border border-gray-300 py-2 rounded-xl hover:bg-gray-50 transition cursor-pointer"
         >
-          <img
+          <Image
             src="https://www.svgrepo.com/show/475656/google-color.svg"
             alt="Google logo"
+            width={20}
+            height={20}
             className="w-5 h-5"
           />
           <span>Sign In with Google</span>

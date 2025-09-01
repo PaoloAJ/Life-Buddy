@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 
 function PrivacyPolicy() {
   return (
@@ -12,7 +11,13 @@ function PrivacyPolicy() {
           href="/"
           className="inline-flex items-center space-x-2 text-blue-400 hover:text-blue-300 mb-8 transition-colors"
         >
-          <ArrowBackIcon />
+          <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+            <path
+              fillRule="evenodd"
+              d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z"
+              clipRule="evenodd"
+            />
+          </svg>
           <span>Back to Home</span>
         </Link>
 
@@ -186,7 +191,7 @@ function PrivacyPolicy() {
 
             <section>
               <h2 className="text-2xl font-semibold mb-4 text-blue-200">
-                Children's Privacy
+                Children&apos;s Privacy
               </h2>
               <p className="leading-relaxed">
                 Life Buddy does not knowingly collect personal information from
@@ -243,7 +248,7 @@ function PrivacyPolicy() {
                 🚀 Website Coming Soon!
               </h3>
               <p className="leading-relaxed">
-                We're working hard to bring you an enhanced Life Buddy
+                We&apos;re working hard to bring you an enhanced Life Buddy
                 experience with more features, better analytics, and a
                 comprehensive dashboard. Stay tuned for updates!
               </p>

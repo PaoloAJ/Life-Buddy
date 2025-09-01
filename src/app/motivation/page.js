@@ -1,42 +1,48 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import Link from "next/link";
 
 export default function MotivationPage() {
   const [currentQuote, setCurrentQuote] = useState("");
   const [currentTip, setCurrentTip] = useState("");
 
-  const quotes = [
-    "The only way to do great work is to love what you do.",
-    "Success is not final, failure is not fatal: it is the courage to continue that counts.",
-    "The future belongs to those who believe in the beauty of their dreams.",
-    "Don't watch the clock; do what it does. Keep going.",
-    "The only limit to our realization of tomorrow is our doubts of today.",
-    "Education is the most powerful weapon which you can use to change the world.",
-    "The expert in anything was once a beginner.",
-    "Your time is limited, don't waste it living someone else's life.",
-    "The difference between ordinary and extraordinary is that little extra.",
-    "Learning never exhausts the mind.",
-    "The more you learn, the more you earn.",
-    "Knowledge is power. Information is liberating.",
-    "Education is the passport to the future, for tomorrow belongs to those who prepare for it today.",
-    "The beautiful thing about learning is that nobody can take it away from you.",
-    "Live as if you were to die tomorrow. Learn as if you were to live forever.",
-  ];
+  const quotes = useMemo(
+    () => [
+      "The only way to do great work is to love what you do.",
+      "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+      "The future belongs to those who believe in the beauty of their dreams.",
+      "Don't watch the clock; do what it does. Keep going.",
+      "The only limit to our realization of tomorrow is our doubts of today.",
+      "Education is the most powerful weapon which you can use to change the world.",
+      "The expert in anything was once a beginner.",
+      "Your time is limited, don't waste it living someone else's life.",
+      "The difference between ordinary and extraordinary is that little extra.",
+      "Learning never exhausts the mind.",
+      "The more you learn, the more you earn.",
+      "Knowledge is power. Information is liberating.",
+      "Education is the passport to the future, for tomorrow belongs to those who prepare for it today.",
+      "The beautiful thing about learning is that nobody can take it away from you.",
+      "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+    ],
+    []
+  );
 
-  const studyTips = [
-    "Set specific goals for each study session",
-    "Use the Pomodoro Technique (25 min work, 5 min break)",
-    "Eliminate distractions and create a focused environment",
-    "Take active notes instead of passive reading",
-    "Review and revise regularly",
-    "Stay hydrated and take care of yourself",
-    "Find your optimal study time and stick to it",
-    "Break down complex topics into smaller chunks",
-    "Teach others what you&apos;ve learned",
-    "Get enough sleep - it&apos;s crucial for memory consolidation",
-  ];
+  const studyTips = useMemo(
+    () => [
+      "Set specific goals for each study session",
+      "Use the Pomodoro Technique (25 min work, 5 min break)",
+      "Eliminate distractions and create a focused environment",
+      "Take active notes instead of passive reading",
+      "Review and revise regularly",
+      "Stay hydrated and take care of yourself",
+      "Find your optimal study time and stick to it",
+      "Break down complex topics into smaller chunks",
+      "Teach others what you&apos;ve learned",
+      "Get enough sleep - it&apos;s crucial for memory consolidation",
+    ],
+    []
+  );
 
   useEffect(() => {
     // load random quote and tip on component mount
@@ -64,7 +70,7 @@ export default function MotivationPage() {
           <div className="mb-12 text-center">
             <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
               <h2 className="text-2xl font-semibold text-white mb-6">
-                💭 Today's Motivation
+                💭 Today&apos;s Motivation
               </h2>
               <blockquote className="text-2xl md:text-3xl text-white/90 italic leading-relaxed">
                 &ldquo;{currentQuote}&rdquo;

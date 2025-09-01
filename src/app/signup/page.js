@@ -1,6 +1,7 @@
 "use client";
-import { React, useState } from "react";
+import React, { useState } from "react";
 import { supabase } from "../supabase-client";
+import Image from "next/image";
 
 function SignUp() {
   const [email, setEmail] = useState("");
@@ -100,9 +101,11 @@ function SignUp() {
           }}
           className="w-full flex items-center justify-center gap-2 border border-gray-300 py-2 rounded-xl hover:bg-gray-50 transition cursor-pointer"
         >
-          <img
+          <Image
             src="https://www.svgrepo.com/show/475656/google-color.svg"
             alt="Google logo"
+            width={20}
+            height={20}
             className="w-5 h-5"
           />
           <span>Sign Up with Google</span>
