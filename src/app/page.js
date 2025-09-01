@@ -5,7 +5,7 @@ function Home() {
   return (
     <main className="min-h-screen py-10 px-6 text-white">
       <h1 className="text-3xl font-bold mb-8 text-center">
-        Welcome to LifeBuddy
+        Welcome to LifeBuddy!
       </h1>
 
       {/* Coming Soon Message */}

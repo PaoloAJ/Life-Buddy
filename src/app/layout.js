@@ -9,7 +9,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata = {
-  title: "Study Buddy",
+  title: "Life Buddy",
   description: "Developed by Anilov Villanueva",
   icons: {
     icon: "/favicon.ico",
