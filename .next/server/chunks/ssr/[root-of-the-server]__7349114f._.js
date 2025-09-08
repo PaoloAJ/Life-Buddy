@@ -86,7 +86,7 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$d
 ;
 ;
 const metadata = {
-    title: "Study Buddy",
+    title: "Life Buddy",
     description: "Developed by Anilov Villanueva",
     icons: {
         icon: "/favicon.ico"

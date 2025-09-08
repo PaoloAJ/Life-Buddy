@@ -217,16 +217,14 @@ function PrivacyPolicy() {
               </h2>
               <p className="mb-3">
                 If you have questions about this Privacy Policy or our data
-                practices, please contact us at:
+                practices, please contact us at:{" "}
+                <a
+                  href="https://chromewebstore.google.com/detail/ndbdcahdcnfigegkljghcaobjgilefpo/support"
+                  className="font-bold text-xl hover:text-blue-400"
+                >
+                  Store Support
+                </a>
               </p>
-              <ul className="list-disc list-inside space-y-2 ml-4">
-                <li>
-                  <strong>Email:</strong> [Your Contact Email]
-                </li>
-                <li>
-                  <strong>Website:</strong> [Your Website if applicable]
-                </li>
-              </ul>
             </section>
 
             <section>

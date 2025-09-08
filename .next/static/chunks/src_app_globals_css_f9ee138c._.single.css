@@ -387,6 +387,21 @@
     aspect-ratio: 1;
   }
 
+  .size-10 {
+    width: calc(var(--spacing) * 10);
+    height: calc(var(--spacing) * 10);
+  }
+
+  .size-20 {
+    width: calc(var(--spacing) * 20);
+    height: calc(var(--spacing) * 20);
+  }
+
+  .size-40 {
+    width: calc(var(--spacing) * 40);
+    height: calc(var(--spacing) * 40);
+  }
+
   .h-5 {
     height: calc(var(--spacing) * 5);
   }
@@ -959,6 +974,12 @@
   @media (hover: hover) {
     .hover\:text-blue-300:hover {
       color: var(--color-blue-300);
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:text-blue-400:hover {
+      color: var(--color-blue-400);
     }
   }
 
